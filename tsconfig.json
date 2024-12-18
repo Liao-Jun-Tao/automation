@@ -10,10 +10,11 @@
     "skipLibCheck": true
   },
   "include": [
-    "pufa.ts",
-    "tools.ts"
+    "pufa/**/*",
+    "utils/**/*"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "**/*.spec.ts"
   ]
 }
